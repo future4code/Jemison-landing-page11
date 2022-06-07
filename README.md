@@ -14,3 +14,7 @@ Subi a imagem do logo
 Estou pensando em criar uma frase de impacto para bo assunto da página.
 por hoje é isto
 
+07/07 
+Dando cara ao cabeçalho
+Resolvemos ver se é possivel mudar o formato da Logo
+
