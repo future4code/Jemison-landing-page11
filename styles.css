@@ -5,8 +5,49 @@
 
 /* colocar estilo do header */
 
+/*.header_menu{
+    display: flex;
+    align-items: center;
+}*/
 
+#icone_logo {
+    height: 200px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
 
+#titulo-pagina{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 700%;
+    font-style: oblique;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 200px;
+    background-color: #665B5B;
+/*    display: flex;*/
+    align-items: center;
+    box-shadow: 12px 12px 15px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.header_menu{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 10px;
+    height: 20px;
+    background-color: #E0E0E0;
+/*    display: flex;*/
+    align-items: center;
+    box-shadow: 12px 12px 15px rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 
 
