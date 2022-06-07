@@ -26,15 +26,18 @@
 }
 
 .section-1{
-    
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
     width: 100%;
     height: 500px;
     background-color: aqua;
 
 }
 
+
 .section-2{
-    
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
     width: 100%;
     height: 500px;
     background-color: yellow;
@@ -42,7 +45,8 @@
 }
 
 .section-3{
-    
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
     width: 100%;
     height: 500px;
     background-color: green;
@@ -57,8 +61,32 @@
 }
 
 .section-4{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
     width: 100%;
     height: 500px;
     background-color: grey;
 
+}
+
+.section-1 p{
+    background-color: bisque;
+}
+
+.section-2 p{
+    background-color: black;
+}
+
+.section-3 p{
+    background-color:chocolate;
+}
+
+.section-4 p{
+    background-color: darkorchid;
+}
+
+.rodape{
+    width: 100%;
+    height: 500px;
+    background-color: cornflowerblue;
 }
