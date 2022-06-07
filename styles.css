@@ -2,3 +2,63 @@
     margin: 0;
     padding: 0;
 }
+
+/* colocar estilo do header */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* estilos das sessões */
+
+.container-principal{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+.section-1{
+    
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+
+}
+
+.section-2{
+    
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+
+}
+
+.section-3{
+    
+    width: 100%;
+    height: 500px;
+    background-color: green;
+
+}
+
+.mosaico{
+    width: 100%;
+    height: 500px;
+    background-color: gold;
+
+}
+
+.section-4{
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+
+}
