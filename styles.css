@@ -63,12 +63,20 @@ header {
 
 /* estilos das sessões */
 
+
 .container-principal{
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: 500px;
-    background-color: black;
-    
+
+    height: 800px;
+    color: white;
+    background-image: url(img-back/back-01Grey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
+
 
 .section-1{
     display: grid;
