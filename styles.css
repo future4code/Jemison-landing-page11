@@ -11,6 +11,10 @@
     padding: 0;
 }
 
+body{
+    background-color: rgb(216, 53, 53);
+}
+
 /* colocar estilo do header */
 
 /*.header_menu{
@@ -73,13 +77,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 100%;
+    width: 97%;
     height: 800px;
     color: white;
+    margin: 20px;
     background-image: url(img-back/back-01Grey.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    box-shadow: 12px 12px 15px rgb(0, 0, 0);
 }
 
 .container-apresentacao{
@@ -115,9 +121,11 @@ header {
     font-size: 25px;
     margin: 40px;
     padding: 20px;
+    
 }
 
 .botao-principal{
+    width: 150px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #a51919;
     padding: 10px;
@@ -127,6 +135,10 @@ header {
 .botao-principal a{
     text-decoration: none;
     color: white;
+}
+
+.botao-principal a:hover{
+    text-decoration: underline;
 }
 
 
