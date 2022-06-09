@@ -52,6 +52,7 @@ header {
     justify-content:space-around;
     align-items:center;
     padding: 10px;
+    width: 100%;
     height: 20px;
     background-color: #E0E0E0;
 /*    display: flex;*/
