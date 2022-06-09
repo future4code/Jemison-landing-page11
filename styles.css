@@ -24,7 +24,7 @@ body{
 
 #icone_logo {
     height: 200px;
-    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+   /** box-shadow: 2px 2px 5px rgb(0, 0, 0);*/
 }
 
 #titulo-pagina{
@@ -40,7 +40,7 @@ header {
     align-items: center;
     padding: 10px;
     height: 200px;
-    background-color: #665B5B;
+    background-color: #DAE5E8;
 /*    display: flex;*/
     align-items: center;
     box-shadow: 12px 12px 15px rgb(0, 0, 0);
@@ -49,11 +49,12 @@ header {
 
 .header_menu{
     display: flex;
+
     justify-content:space-around;
     align-items:center;
     padding: 10px;
     height: 20px;
-    background-color: #E0E0E0;
+    background-color: #665B5B;
 /*    display: flex;*/
     align-items: center;
     box-shadow: 12px 12px 15px rgb(0, 0, 0);
