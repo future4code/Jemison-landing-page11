@@ -18,3 +18,6 @@ por hoje é isto
 Dando cara ao cabeçalho
 Resolvemos ver se é possivel mudar o formato da Logo
 
+08/07
+Novos testes com o cabeçalho e tratamento de novas imagens
+
