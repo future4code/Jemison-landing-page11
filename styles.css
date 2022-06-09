@@ -145,12 +145,13 @@ header {
 
 .sessoes{
     display: grid;
-    grid-template-columns: repeat(2, 50%);    
-    height: 600px;
+    grid-template-columns: repeat(2, 50vw);    
+    height: 50vw;
     font-family: 'Staatliches', cursive;
     font-size: 55px;
-    gap: 10px;
+    gap: 2vw;
     background-color: white;
+
       
 }
 
@@ -202,16 +203,13 @@ header {
     justify-content: center;    
     align-items: center;
     background-color: white;
-    
- 
 
 }
 
 .imagens-section2{
     margin-left: 40px;
-
-  
-    
+    box-shadow: 12px 12px 12px #665B5B;
+      
 }
 
 .mosaico{
