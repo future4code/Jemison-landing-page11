@@ -71,7 +71,6 @@ header {
     text-decoration: none;
     font-family: 'Nanum Gothic', sans-serif;
     color: black;
-    
 }
 
 .header_menu{
@@ -79,7 +78,6 @@ header {
     justify-content:space-around;
     align-items:center;
     padding: 10px;
-    height: 20px;
     background-color: #E0E0E0;
     align-items: center;
     box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
@@ -251,12 +249,64 @@ header {
     
 }
 
-.rodape{
-    margin-top: 1vw;
+/*INICIO DO RODPÉ*/
 
-    height: 30vw;
+.rodape{
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-rows:auto;
+/*    margin: 1vw;*/
+/*    margin-top: 1vw;*/
+    margin-bottom: 0vw;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    /*align-content:flex-end;*/
+    height: 100%;
     background-color: #665B5B;
 }
 
+.rodape img{
+    height: 5vw;
+    text-decoration: none;
+    justify-content: center;
+/*    justify-content:space-around;*/
+}
 
+.linha{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin: 1vw;
+}
 
+.barra1{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 1vw;
+}
+.rodape_texto{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 1vw;
+}
+.rodape_enderecos{
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: 1vw;
+}
+
+.barra2{
+    grid-row-start: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    margin: 1vw;
+}
+.rodape_midias{
+    text-decoration: none;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin: 1vw;
+}
