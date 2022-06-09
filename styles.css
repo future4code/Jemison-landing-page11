@@ -156,9 +156,9 @@ header {
 .botao-principal{
     width: 150px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #a51919;
+    background-color: #c21414;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 2em;
 }
 
 .botao-principal a{
@@ -167,8 +167,8 @@ header {
     color: white;
 }
 
-.botao-principal a:hover{
-    text-decoration: underline;
+.botao-principal:hover{
+    background-color: #850e0e;
 }
 
 
