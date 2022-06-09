@@ -158,22 +158,24 @@ header {
 .card{
     width: 80%;
     margin: 5px 15px 5px 15px;
-    
+   
 }
 
 
-img:hover{
+.imagens-section:hover{
  width: 580px;
  transition: 0.6s;
 }
 .card p{
     margin: 30px 0 0 90px;
     display: block;
+    font-size: 45px;
   
 }
 
 .card2 p{
-    margin: 30px 100px 0 90px; 
+    margin: 30px 100px 0 90px;
+    font-size: 45px;
 }
 
 .subtitulo-sessao{
@@ -190,7 +192,26 @@ img:hover{
 }
 
 .card2 img{
-   margin:0 0 50px 0;
+   margin:40px 0 50px 0;
+}
+
+.sessoes2{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    justify-content: center;    
+    align-items: center;
+    background-color: white;
+    
+ 
+
+}
+
+.imagens-section2{
+    margin-left: 40px;
+
+  
+    
 }
 
 .mosaico{
