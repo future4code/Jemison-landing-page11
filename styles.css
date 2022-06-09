@@ -78,52 +78,42 @@ header {
 }
 
 
-.section-1{
+.section{
     display: grid;
     grid-template-columns: repeat(2, 50%);    
     height: 600px;
-    /* background-color: aqua; */
+ /*    background-color: aqua;  */
     font-family: 'Staatliches', cursive;
-    font-size: 60px;
+    font-size: 55px;
     gap: 10px;
   
     
 }
+.card{
+    width: 80%;
+    margin: 5px 15px 5px 15px;
+    
+}
+
+
+.card p{
+    margin: 30px 0 0 90px;
+  
+}
+
+.card2 p{
+    margin: 30px 100px 0 90px; 
+}
 
 .imagens-section{
     width:510px;
-   margin:50px 0 10px 50px
+   margin:70px 0 70px 50px;
+   justify-content: center;
  
 }
 
-.imagens-section1{
-    width: 510px;
-    margin:50px 15px 15px 50px
-}
-.card p{
-
-}
-
-.section-2{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    width: 100%;
-    height: 500px;
-    background-color: yellow;
-    font-family: 'Staatliches', cursive;
-    font-size: 65px;
-
-
-}
-
-.section-3{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    height: 500px;
-    background-color: green;
-    font-family: 'Staatliches', cursive;
-    font-size: 65px;
-
+.card2 img{
+   margin:0 0 50px 0;
 }
 
 .mosaico{
@@ -133,36 +123,10 @@ header {
 
 }
 
-.section-4{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    width: 100%;
-    height: 500px;
-    background-color: grey;
-    font-family: 'Staatliches', cursive;
-    font-size: 65px;
-    gap: 10px;
-
-}
-
-
-
 .card{
     width: 80%;
     margin: 5px 15px 5px 15px;
     
-}
-
-.section-2 p{
-    background-color: black;
-}
-
-.section-3 p{
-    background-color:chocolate;
-}
-
-.section-4 p{
-    background-color: darkorchid;
 }
 
 .rodape{
