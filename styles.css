@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Anton&family=Bad+Script&family=Charm&family=Coda+Caption&family=Italianno&family=Nanum+Gothic&family=Quicksand:wght@300&family=RocknRoll+One&family=Rubik:ital,wght@1,300&family=Staatliches&display=swap');
 
 
+/* Fonte-sessão principal */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:wght@700&family=Montserrat&family=Roboto:ital,wght@1,500&family=Tiro+Devanagari+Hindi:ital@1&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-color: rgb(216, 53, 53);
 }
 
 /* colocar estilo do header */
@@ -66,15 +75,70 @@ header {
 
 .container-principal{
     display: flex;
-    justify-content: center;
-    width: 100%;
-
+    align-items: center;
+    justify-content: flex-start;
+    width: 97%;
     height: 800px;
     color: white;
+    margin: 20px;
     background-image: url(img-back/back-01Grey.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    box-shadow: 12px 12px 15px rgb(0, 0, 0);
+}
+
+.container-apresentacao{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titulo-1{
+    font-size: 60px;
+}
+
+#titulo-2{
+    padding: 20px;
+    color: rgb(218, 26, 26);
+    font-size:  30px;
+}
+
+.titulos{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: bold 700;
+    color: #ffbdbd;
+    padding: 10px;
+}
+
+.descricao-apresentacao{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 400 ;
+    text-align: justify;
+    font-size: 25px;
+    margin: 40px;
+    padding: 20px;
+    
+}
+
+.botao-principal{
+    width: 150px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #a51919;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botao-principal a{
+    text-decoration: none;
+    color: white;
+}
+
+.botao-principal a:hover{
+    text-decoration: underline;
 }
 
 
