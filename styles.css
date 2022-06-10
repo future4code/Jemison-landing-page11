@@ -9,6 +9,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 10px;
 }
 
 body{
@@ -122,13 +123,13 @@ header {
 }
 
 #titulo-1{
-    font-size: 60px;
+    font-size: 6em;
 }
 
 #titulo-2{
     padding: 20px;
     color: rgb(218, 26, 26);
-    font-size:  30px;
+    font-size:  3em;
 }
 
 .titulos{
@@ -152,18 +153,19 @@ header {
 .botao-principal{
     width: 150px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #a51919;
+    background-color: #c21414;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 2em;
 }
 
 .botao-principal a{
+    font-size: 1.5em;
     text-decoration: none;
     color: white;
 }
 
-.botao-principal a:hover{
-    text-decoration: underline;
+.botao-principal:hover{
+    background-color: #850e0e;
 }
 
 
@@ -220,20 +222,55 @@ header {
    margin:40px 0 50px 0;
 }
 
-.sessoes2{
-    height: 600px;
-    display: grid;
-    grid-template-columns: 80% 20%;
-    justify-content: center;    
-    align-items: center;
-    background-color: white;
+/* sessão produtos */
 
+.container-produtos{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "a a b b"
+    "c c c c"
+    "d d e e";
+    gap: 5px;
+    background-color: white;
 }
 
-.imagens-section2{
-    margin-left: 40px;
-    box-shadow: 12px 12px 12px #665B5B;
-      
+.produto-1{
+    width: 100%;
+    height: 100%;
+    grid-area: a;
+    background-color: #ffbdbd;
+}
+
+.produto-2{
+    width: 100%;
+    height: 100%;
+    grid-area: b;
+    background-color: cyan;
+}
+
+.produto-3{
+    width: 100%;
+    height: 100%;
+    grid-area: c;
+    background-color: crimson;
+}
+
+.produto-4{
+    width: 100%;
+    height: 100%;
+    grid-area: d;
+    background-color: blue;
+}
+
+.produto-5{
+    width: 100%;
+    height: 100%;
+    grid-area: e;
+    background-color: chartreuse;
 }
 
 .mosaico{
