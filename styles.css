@@ -252,9 +252,16 @@ header {
 }
 
 .imagem-produto{
-    width: 70%;
+    width: 80%;
     height: 70%;
     border-radius: 50%;
+}
+
+#imagem-palmilha{
+    width: 100%;
+    height: 80%;
+    margin: 10px;
+    box-shadow:  3px 3px 30px grey;
 }
 
 .produto-2{
@@ -265,10 +272,13 @@ header {
 }
 
 .produto-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
     grid-area: c;
-    background-color: crimson;
+
 }
 
 .produto-4{
