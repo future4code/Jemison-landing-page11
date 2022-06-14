@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="img-icones/4comfort-icon.png" type="image/x-icon">
     <title>4Comfort</title>
 
 <body>
@@ -15,21 +16,16 @@
 
     </header>
 
-    <nav class="header_menu">
-        <a href="#">Home</a>
-        <a href="#">Sobre</a>
-        <a href="./index.html#linha">Nossos Produtos</a>
-<!--               
-            <ul>
-                <li><a href="#">Preto</a></li>
-                <li><a href="#">Azul</a></li>
-                <li><a href="#">Cinza</a></li>
-                <li><a href="#">Neon</a></li>
-            </ul>
--->       
-        <a href="#">Serviços</a>
+    <nav class="header_menu"><a name="header_menu"></a>
+        <a href="#header_menu">Home</a>
+        <a href="#mosaico">Sobre</a>
+        <a href="#container-produtos">Nossos Produtos</a>
+        <a href="#contato">Fale Conosco</a>
+    <!--    <a href="#">Serviços</a> -->
         <button class="header_botao">Login</button>
     </nav>
+
+
 
     <main class="container-principal">
 
@@ -39,7 +35,7 @@
 
             <h2 class="titulos" id="titulo-2"> Você merece o melhor!</h2>
             
-            <p class="descricao-apresentacao"> Com produtos de alta qualidade, oferecendo sempre o melhor, compras 100% online, rápido e prático, tudo o que você busca está aqui!</p>
+            <p class="descricao-apresentacao"> Com produtos de alta qualidade, a 4Comfort sempre oferecendo o melhor, compras 100% online, rápido e prático, tudo o que você busca está aqui!</p>
             
             <button class="botao-principal" type="text"><a href="">CONFIRA JÁ</a></button>
 
@@ -57,15 +53,16 @@
         </div>
          <div class="card2">
             <p>A BELEZA ONDE MENOS É MAIS</p>
-            <h5 class="subtitulo-sessao">Um sapato diário com um  estilo <br> que você não ve todo dia!</h5>
+            <h5 class="subtitulo-sessao">Um tênis diário com um  estilo <br> que você não ve todo dia!</h5>
 
             <img class="imagens-section" src="img-tenis/black_and_white_000_isometric.png" alt="">  
          </div>
            
 
     </section>
+<!--
 
-    <section class="container-produtos">
+    <section class="container-produtos"><a name="container-produtos"></a>
          
         <div class="produto-1">
             <h1>TEXTO</h1>
@@ -73,23 +70,33 @@
         
         <div class="produto-2">
             <h2>3aaaaaaaaaaa</h2>
+        
+        -->
+    <section class="container-produtos">
+
+        <div class="produtos">
+            <h2 class="titulos-produto"></h2>
+            <img class="imagem-produto" src="img-tenis/image.png" alt="imagem demonstra uma pessoa vestindo um tênis branco da nike">
+            <p></p>
+
         </div>
         
-        <div class="produto-3">
-            <h3>aaaaaaaaaaaaaaaaaaaaaaaaaaa</h3>
+        <div class="produtos">
+            <h2 class="titulos-produto">Azul</h2>
+            <img class="imagem-produto" src="img-tenis/navy_pessoa.png" alt="">
+            <p></p>
         </div>
         
-        <div class="produto-4">
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
+        <div class="produtos">
+            <h2 class="titulos-produto">Neon</h2>
+            <img class="imagem-produto" src="img-tenis/neon_pessoa.png" alt="">
+            <p></p>
         </div>
         
-        <div class="produto-5">
-            <h1>aaaaaaaaaaaaaaaaaa</h1>
-        </div>
 
     </section>
 
-    <!-- <section class="sessoes">
+<!--    <section class="sessoes">
 
         <div>
         <p>Lorem ipsum dolor, sit amet conse</p>
@@ -104,9 +111,10 @@
 
        
 
-    </section> -->
-
-    <div class="mosaico"> 
+    </section> 
+-->
+<!--
+    <div class="mosaico"><a name="mosaico"></a> 
 
 
        <div class="imag1"><img src="" alt=""></div>
@@ -118,7 +126,7 @@
        
  
     </div>
-
+-->
     <!-- <section class="sessoes">
         
         <div>
@@ -126,11 +134,11 @@
 
          <img class="imagens-section" src="img-tenis/black_000_overhead.png" alt="">
     </div>
-     <div>
+    <div>
         <p>Lorem ipsum dolor, sit amet conse</p>
 
-<!--        <img class="imagens-sectioc" src="img-tenis/gray_000.png" alt="">  -->
-     </div>
+        <img class="imagens-sectioc" src="img-tenis/gray_000.png" alt="">  
+    </div>
 
     </section> -->
 
@@ -141,7 +149,7 @@
     <footer class="rodape" id="rodape">
 
         <div class="linha" id="linha">
-            <form action="/formulario-contato" method="post">
+            <form action="/formulario-contato" method="post"><a name="contato"></a>
                 <div>
                     <label for="nome">Nome:</label>
                     <input type="texto" id="nome" name="nome_usuario">
@@ -159,28 +167,19 @@
                 <button type="submit">Enviar</button>
             </div>
         </div>
-<!--        <div class="barra1">
 
-
-        </div>
-        <div class="rodape_texto">
-
-        </div>
-        <div class="rodape_enderecos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia natus expedita illo minus ad, veritatis tempore facilis ea dignissimos maiores voluptatibus molestiae nulla accusamus quasi impedit similique minima voluptates ipsam.
-        </div>
-        <div class="barra2">
-        </div>
-    -->        <div class="rodape_midias">
-            <a href="https://www.facebook.com">
-            <img src="./img-icones/Facebook.png" alt="Icone para acesso ao Facebook da Quatro Conforti">
+        <div class="rodape_midias">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="./img-icones/Facebook.png" alt="Icone para acesso ao Facebook da Quatro Conforti">
             </a>
-            <a href="https://www.instagram.com">
-            <img src="./img-icones/Instagram.png" alt="Icone para acesso ao Instagram da Quatro Conforti">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="./img-icones/Instagram.png" alt="Icone para acesso ao Instagram da Quatro Conforti">
             </a>
-            <a href="https://twitter.com/">
-            <img src="./img-icones/Twiter.png" alt="Icone para acesso ao Twiter da Quatro Conforti">
+            <a href="https://twitter.com/" target="_blank">
+                <img src="./img-icones/Twiter.png" alt="Icone para acesso ao Twiter da Quatro Conforti">
             </a>
         </div>
+        <p class="endereço">Rua das Flores Cinzas, s/número - Tel +55 61 325-12345</p> 
 
     </footer>
 
