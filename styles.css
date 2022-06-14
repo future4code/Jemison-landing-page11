@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color: rgb(216, 53, 53);
+    background-color: #E0E0E0;
 }
 
 /* colocar estilo do header */
@@ -224,14 +224,14 @@ header {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    background-image: linear-gradient(to bottom,white, #ffbdbd, #bda9a9)
+    background-image: linear-gradient(to bottom,white, #afa4a4, white )
     
 }
 
 .titulos-produto{
     font-size: 3em;
     margin: 5%;
-    color:rgb(216, 53, 53);
+    color:black;
 }
 
 
@@ -251,7 +251,7 @@ header {
 }
 
 .produtos:hover{
-    border: 3px solid pink;
+    border: 3px solid #665B5B;
     transform: 1s;
 }
 
