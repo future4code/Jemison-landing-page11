@@ -89,11 +89,7 @@ header {
 }
 
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 0b2275bf1c61c5bb09e4c07170d515febed806a5
 /* estilos das sessões */
 
 
@@ -274,74 +270,77 @@ header {
     height: 80%;
 }
 
-<<<<<<< HEAD
-.produto-3{
-    width: 100%;
-    height: 100%;
-    grid-area: c;
-    background-color: crimson;
-}
 
-.produto-4{
-    width: 100%;
-    height: 100%;
-    grid-area: d;
-    background-color: blue;
-}
 
-.produto-5{
-    width: 100%;
-    height: 100%;
-    grid-area: e;
-    background-color: chartreuse;
-}
 /* INICIO MOSAICO*/
-=======
 
->>>>>>> 0b2275bf1c61c5bb09e4c07170d515febed806a5
 .mosaico{
+    width: 100%;
     display: grid;
-    height: 600px; 
+    height: 650px; 
     grid-template-columns: repeat(4,1fr) ;
-    grid-template-rows: repeat(4,1fr) ;
-    gap: 20px;
-}
+    grid-template-rows: repeat( 4,1fr);
+    gap: 10px;
+    background-color: #665B5B;
+    margin-bottom: 10px;
 
-.card{
-    width: 80%;
-    margin: 5px 15px 5px 15px;
     
 }
 
-.mosaico div{
-    background-color: #bda9a9;
+.img-mosaico{
+    width: 95%;
+    border: 1px solid black ;
+    box-shadow: #000 3px 1px 1px;
 }
 
-.imag1{
-  /*   grid-area: imag1; */
+.div-mosaico1{
+    width: 100%;
+    margin-top: 2vw;
+    margin-left: 1vw;
 }
-.imag2{
-/*  grid-area: imag2; */
+
+.div-mosaico2{
+    width: 100%;
+    margin-top: 4vw;
+    margin-left: 0.5vw;
 }
-.imag3{
-/*  grid-area: imag3; */
-grid-column-start: 3;   
-grid-column-end: 5;
-grid-row-start: 3;  
-grid-row-end: 5;
+
+.div-mosaico3{
+    width: 98%;
+    margin-top: 1vw;
+    margin-left: 0.4vw;
+
 }
-.imag4{
-/* grid-area: imag4; */
+
+.div-mosaico4{
+    width: 100%;
+    margin-top: 1vw;
+  
 }
-.imag5{
-/*  grid-area: imag5; */
+
+.div-mosaico5{
+    width: 100%;
+    margin-top: -4vw;
+    margin-left: 1vw;
+
+
 }
-.imag6{
-/*  grid-area: imag6; */
- grid-column-start: 1;
- grid-column-end: 3;
- grid-row-start: 1;
- grid-row-end: 3;
+
+.div-mosaico6{
+    width: 100%;
+    margin-left: 0.5vw; 
+
+}
+
+.div-mosaico7{
+ width: 100%;
+ margin-top: -0.5vw;
+ margin-left: 0.4vw;
+ 
+}
+
+.div-mosaico8{
+ width: 100%;
 }
 
 
