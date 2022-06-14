@@ -56,7 +56,7 @@ header {
 }
 
 .header_botao{
-    box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
+    box-shadow: 0.5vw 0.5vw 0.5vw rgb(0, 0, 0);
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5vw;
     color: black;
@@ -69,6 +69,8 @@ header {
 
 
 .header_menu a{
+    align-content: space-between;
+    font-size: 1.5vw;
     text-decoration: none;
     font-family: 'Nanum Gothic', sans-serif;
     color: black;
@@ -78,14 +80,14 @@ header {
     display: flex;
     justify-content:space-around;
     align-items:center;
-    padding: 10px;
+    padding: 1em;
     background-color: #E0E0E0;
-    align-items: center;
     box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
     text-align: center;
     margin-bottom: 1vw;
     margin-top: 1vw;
 }
+
 
 
 /* estilos das sessões */
@@ -214,6 +216,14 @@ header {
    margin:40px 0 50px 0;
 }
 
+.card{
+    width: 80%;
+    margin: 5px 15px 5px 15px;
+    
+}
+
+
+
 /* sessão produtos */
 
 .container-produtos{
@@ -261,65 +271,81 @@ header {
 }
 
 
+
+/* INICIO MOSAICO*/
+
 .mosaico{
+    width: 100%;
     display: grid;
-    height: 600px; 
-    grid-template-columns: repeat(4,1fr) ;
-    grid-template-rows: repeat(4,1fr) ;
-    gap: 20px;
+    height: 650px; 
+    grid-template-columns: repeat(4,1fr) ;   
+}
+
+.img-mosaico{
+    width: 95%;
+    border: 1px solid black ;
+    box-shadow: #000 3px 1px 1px;
+}
+
+.div-mosaico1{
+    width: 100%;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+
+.div-mosaico2{
+    width: 100%;
+    margin-top: 4vw;
+    margin-left: 0.5vw;
+}
+
+.div-mosaico3{
+    width: 98%;
+    margin-top: 1vw;
+    margin-left: 0.4vw;
 
 }
 
-.card{
-    width: 80%;
-    margin: 5px 15px 5px 15px;
-    
+.div-mosaico4{
+    width: 100%;
+    margin-top: 1vw;
+  
 }
 
-.mosaico div{
-    background-color: #bda9a9;
+.div-mosaico5{
+    width: 100%;
+    margin-top: -4vw;
+    margin-left: 1vw;
+
+
 }
 
-.imag1{
-  /*   grid-area: imag1; */
+.div-mosaico6{
+    width: 100%;
+    margin-left: 0.5vw; 
+
 }
-.imag2{
-/*  grid-area: imag2; */
+
+.div-mosaico7{
+ width: 100%;
+ margin-top: -0.5vw;
+ margin-left: 0.4vw;
+ 
 }
-.imag3{
-/*  grid-area: imag3; */
-grid-column-start: 3;   
-grid-column-end: 5;
-grid-row-start: 3;  
-grid-row-end: 5;
-}
-.imag4{
-/* grid-area: imag4; */
-}
-.imag5{
-/*  grid-area: imag5; */
-}
-.imag6{
-/*  grid-area: imag6; */
- grid-column-start: 1;
- grid-column-end: 3;
- grid-row-start: 1;
- grid-row-end: 3;
+
+.div-mosaico8{
+ width: 100%;
 }
 
 
 /*INICIO DO RODPÉ*/
 
 .rodape{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows:auto;
-/*    margin: 1vw;*/
-/*    margin-top: 1vw;*/
-    margin-bottom: 0vw;
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
-    /*align-content:flex-end;*/
     height: 100%;
     background-color: #665B5B;
     position: relative;
@@ -331,11 +357,7 @@ grid-row-end: 5;
     left: 39%;
     transform: translate(-50%, -50%);
     margin: 2vw;
-/*    display:block;*/
     height: 4vw;
-/*    text-decoration: none;
-    justify-content: center;
-    justify-content:space-around;*/
 }
 
 .linha{
@@ -343,32 +365,7 @@ grid-row-end: 5;
     grid-column-end: 6;
     margin: 1vw;
 }
-/*
-.barra1{
-    grid-row-start: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin: 1vw;
-}
-.rodape_texto{
-    grid-row-start: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    margin: 1vw;
-}
-.rodape_enderecos{
-    grid-row-start: 2;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    margin: 1vw;
-}
 
-.barra2{
-    grid-row-start: 2;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    margin: 1vw;
-}*/
 .rodape_midias{
     position: relative;
     grid-column-start: 1;
@@ -376,7 +373,7 @@ grid-row-end: 5;
     margin: 1vw;
 }
 
-/*Rodapé*/
+/*Rodapé Contato*/
 
 form {
     margin: 0 auto;
@@ -411,12 +408,29 @@ textarea {
     vertical-align: top;
     height: 5em;
 }
-  
-  .button {
+/*  
+.button {
     padding-left: 500px;
 }
-  
-  button {
-    margin-left: .5em;
-  }
+  */
+button {
+    margin-left: 45vw;
+    margin-top: 1em;
+    box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.5vw;
+    color: black;
+}
 
+#linha label{
+    font-size: 1.5vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+}
+
+.endereço {
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+}
