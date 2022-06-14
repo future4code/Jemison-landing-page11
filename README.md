@@ -30,3 +30,6 @@ Começando a construir o rodapé.
 Adição de novas imagens para a criação dos colegas.
 Ainda trabalhando no rodapé.
 
+13/06
+Conclusão de uma proposta para o rodapé
+
