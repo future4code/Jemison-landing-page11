@@ -88,14 +88,6 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
 /* estilos das sessões */
 
 
@@ -225,53 +217,49 @@ header {
 /* sessão produtos */
 
 .container-produtos{
+    display: flex;
     width: 100%;
     height: 800px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "a a b b"
-    "c c c c"
-    "d d e e";
-    gap: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom,white, #ffbdbd, #bda9a9)
+    
+}
+
+.titulos-produto{
+    font-size: 3em;
+    margin: 5%;
+    color:rgb(216, 53, 53);
+}
+
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    width: 400px;
+    height: 500px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    box-shadow: 1px 2px 6px black;
+
 }
 
-.produto-1{
-    width: 100%;
-    height: 100%;
-    grid-area: a;
-    background-color: #ffbdbd;
+.produtos:hover{
+    border: 3px solid pink;
+    transform: 1s;
 }
 
-.produto-2{
-    width: 100%;
-    height: 100%;
-    grid-area: b;
-    background-color: cyan;
+.imagem-produto{
+    width: 80%;
+    height: 80%;
 }
 
-.produto-3{
-    width: 100%;
-    height: 100%;
-    grid-area: c;
-    background-color: crimson;
-}
-
-.produto-4{
-    width: 100%;
-    height: 100%;
-    grid-area: d;
-    background-color: blue;
-}
-
-.produto-5{
-    width: 100%;
-    height: 100%;
-    grid-area: e;
-    background-color: chartreuse;
-}
 
 .mosaico{
     display: grid;
