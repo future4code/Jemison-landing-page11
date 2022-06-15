@@ -13,31 +13,19 @@
 }
 
 body{
-    background-color: rgb(216, 53, 53);
+    background-color: #E0E0E0;
 }
 
 /* colocar estilo do header */
 
-/*.header_menu{
-    display: flex;
-    align-items: center;
-}*/
-
-/*.header_menu{
-    display: flex;
-    align-items: center;
-}*/
-
 #icone_logo {
     height: 21vw;
-/*    margin-top: 1vw;*/
-/*    box-shadow: 2px 2px 5px rgb(0, 0, 0);*/
+
 }
 
 #titulo-pagina{
     font-family: 'Staatliches', cursive;
     font-size: 15vw;
-/*    font-style: oblique;*/
     margin-right: 10vw;
     
 }
@@ -49,6 +37,7 @@ header {
     align-content: center;
     padding: 1vw;
     height: 20vw;
+    width: 96.5vw;
     background-color: #DAE5E8;
     align-items: center;
     box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
@@ -74,13 +63,15 @@ header {
     text-decoration: none;
     font-family: 'Nanum Gothic', sans-serif;
     color: black;
+    
 }
 
 .header_menu{
     display: flex;
     justify-content:space-around;
     align-items:center;
-    padding: 1em;
+    padding: 1vw;
+    width: 96.5vw;
     background-color: #E0E0E0;
     box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
     text-align: center;
@@ -220,18 +211,23 @@ header {
 .container-produtos{
     display: flex;
     width: 100%;
-    height: 800px;
+    height: 700px;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+
     background-image: linear-gradient(to bottom,white, #ffbdbd, #bda9a9)   
+
+    background-image: linear-gradient(to bottom,white, #afa4a4, white )
+    
+
 }
 
 .titulos-produto{
     font-size: 3em;
     margin: 5%;
-    color:rgb(216, 53, 53);
+    color:black;
 }
 
 
@@ -239,7 +235,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 2%;
     width: 400px;
     height: 500px;
     background-color: white;
@@ -251,7 +247,7 @@ header {
 }
 
 .produtos:hover{
-    border: 3px solid pink;
+    border: 3px solid #665B5B;
     transform: 1s;
 }
 
@@ -267,12 +263,17 @@ header {
 .mosaico{
     width: 100%;
     display: grid;
+
     height: 48vw; 
     grid-template-columns: repeat(4,1fr) ;
     grid-template-rows: repeat( 4,1fr);
     gap: 0.8vw;
     background-color: #665B5B;
     margin-bottom: 1vw;  
+
+    height: 650px; 
+    grid-template-columns: repeat(4,1fr) ;   
+
 }
 
 .img-mosaico{
@@ -326,7 +327,7 @@ header {
 }
 
 
-/*INICIO DO RODPÉ*/
+/*INICIO DO RODAPÉ*/
 
 .rodape{
     margin-top: 1vw;
@@ -334,7 +335,8 @@ header {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows:auto;
-    height: 100%;
+    height: 30vw;
+    width: 100vw;
     background-color: #665B5B;
     position: relative;
 }
@@ -365,9 +367,9 @@ header {
 
 form {
     margin: 0 auto;
-    width: 400px;
+    width: 40vw;
     padding: 1em;
-    border: 1px solid #CCC;
+    border: 0.2em solid #CCC;
     border-radius: 1em;
 }
   
@@ -377,15 +379,15 @@ form div + div {
   
 label {
     display: inline-block;
-    width: 90px;
+    width: 7vw;
     text-align: right;
 }
   
 input, textarea {
     font: 1em sans-serif;
-    width: 300px;
+    width: 32vw;
     box-sizing: border-box;
-    border: 1px solid #999;
+    border: 0.1em solid #999;
 }
   
 input:focus, textarea:focus {
@@ -396,11 +398,7 @@ textarea {
     vertical-align: top;
     height: 5em;
 }
-/*  
-.button {
-    padding-left: 500px;
-}
-  */
+
 button {
     margin-left: 45vw;
     margin-top: 1em;
