@@ -162,64 +162,55 @@ header {
     background-color: #850e0e;
 }
 
+/* INCIO SESSAO 1 */
 
 .sessoes{
     display: grid;
     grid-template-columns: repeat(2, 50vw);    
-    height: 50vw;
+    height: 40vw;
     font-family: 'Staatliches', cursive;
-    font-size: 55px;
     gap: 2vw;
-    background-color: white;
-
-      
+    background-color: white;     
 }
 
-
+ 
 .card{
     width: 80%;
     margin: 5px 15px 5px 15px;
    
-}
+}  
 
 
 .imagens-section:hover{
- width: 580px;
- transition: 0.6s;
+    width: 45vw;
+    transition: 0.6s;
 }
+
 .card p{
-    margin: 30px 0 0 90px;
+    margin: 2vw 0 0 7vw;
     display: block;
-    font-size: 45px;
-  
+    font-size: 4.5em;
 }
 
 .card2 p{
-    margin: 30px 100px 0 90px;
-    font-size: 45px;
+    margin: 2vw 7.5vw 0 7vw;
+    font-size: 4.5em;
 }
 
 .subtitulo-sessao{
-    font-size: 25px;
+    font-size: 3em;
     font-weight: 300;
-    margin: 20px 30px 0px 100px;
+    margin: 2vw 3vw 0px 7.5vw;
 }
 
 .imagens-section{
-    width:510px;
-   margin:10px 0 70px 50px;
+    width: 40vw;
+   margin: 0.8vw 0 5vw 3vw;
    justify-content: center;
- 
 }
 
 .card2 img{
-   margin:40px 0 50px 0;
-}
-
-.card{
-    width: 80%;
-    margin: 5px 15px 5px 15px;
-    
+    margin:40px 0 50px 0;
 }
 
 
@@ -234,8 +225,12 @@ header {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+
+    background-image: linear-gradient(to bottom,white, #ffbdbd, #bda9a9)   
+
     background-image: linear-gradient(to bottom,white, #afa4a4, white )
     
+
 }
 
 .titulos-produto{
@@ -277,8 +272,17 @@ header {
 .mosaico{
     width: 100%;
     display: grid;
+
+    height: 48vw; 
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat( 4,1fr);
+    gap: 0.8vw;
+    background-color: #665B5B;
+    margin-bottom: 1vw;  
+
     height: 650px; 
     grid-template-columns: repeat(4,1fr) ;   
+
 }
 
 .img-mosaico{
@@ -303,38 +307,32 @@ header {
     width: 98%;
     margin-top: 1vw;
     margin-left: 0.4vw;
-
 }
 
 .div-mosaico4{
     width: 100%;
-    margin-top: 1vw;
-  
+    margin-top: 1vw; 
 }
 
 .div-mosaico5{
     width: 100%;
     margin-top: -4vw;
     margin-left: 1vw;
-
-
 }
 
 .div-mosaico6{
     width: 100%;
     margin-left: 0.5vw; 
-
 }
 
 .div-mosaico7{
- width: 100%;
- margin-top: -0.5vw;
- margin-left: 0.4vw;
- 
+   width: 100%;
+   margin-top: -0.5vw;
+   margin-left: 0.4vw;
 }
 
 .div-mosaico8{
- width: 100%;
+   width: 100%;
 }
 
 
