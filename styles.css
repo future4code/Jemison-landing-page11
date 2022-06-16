@@ -161,22 +161,26 @@ header {
     height: 40vw;
     font-family: 'Staatliches', cursive;
     gap: 2vw;
-    background-color: white;     
+    background-color: white;
+    width: 100%;
+    padding-bottom: 3vw;
+  
 }
 
-/*  
+ 
 .card{
     width: 80%;
     margin: 5px 15px 5px 15px;
+    height: 30vw ;
+    padding: 0;
    
-}  
- */
+} 
 
 .imagens-section:hover{
-    width: 45vw;
+    width: 40vw;
     transition: 0.6s;
 }
-
+ 
 .card p{
     margin: 2vw 0 0 7vw;
     display: block;
@@ -184,7 +188,7 @@ header {
 }
 
 .card2 p{
-    margin: 2vw 7.5vw 0 7vw;
+    margin: 2vw 7.5vw 0 7vw; 
     font-size: 4.5em;
 }
 
@@ -195,7 +199,7 @@ header {
 }
 
 .imagens-section{
-    width: 40vw;
+    width: 35vw;
    margin: 0.8vw 0 5vw 3vw;
    justify-content: center;
 }
@@ -266,7 +270,7 @@ header {
     background-color: #665B5B;
     margin-bottom: 1vw;  
 
-    height: 650px; 
+    height: 47vw; 
     grid-template-columns: repeat(4,1fr) ;   
 
 }
