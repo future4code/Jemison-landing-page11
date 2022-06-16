@@ -335,7 +335,6 @@ header {
     grid-template-columns: 100%;
     grid-template-rows:auto;
     height: 30vw;
-    /*width: 100vw;*/
     background-color: #665B5B;
     position: relative;
 }
@@ -353,6 +352,7 @@ header {
     grid-column-start: 1;
     grid-column-end: 6;
     margin: 1vw;
+    height: 10vw;
 }
 
 .rodape_midias{
@@ -360,6 +360,7 @@ header {
     grid-column-start: 1;
     grid-column-end: 6;
     margin: 1vw;
+    height: 7vw;
 }
 
 /*Rodapé Contato*/
