@@ -37,6 +37,9 @@ Jefferson Vieira / Gabriel Marcelino Carvalho / Ricardo Veronezi Ferrão
 
 Você deverá escolher uma das empresas fictícias abaixo, e criar uma Landing Page para ela. Uma Landing Page é a porta de entrada de sites institucionais. Ela deve apresentar informações sobre a empresa, produtos, etc, de forma a atrair clientes. As empresas fictícias possuem uma breve descrição sobre ela, mas você não deve se limitar às características apresentadas.
 
+### Link do Surge:
+https://mature-giants.surge.sh/
+
 
 ## Critérios de aprovação
 
