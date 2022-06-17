@@ -37,9 +37,9 @@ header {
     align-content: center;
     /*padding: 1vw;*/
     height: 30vw;
-    width: 98vw;
+    width: 100%;
     background-color: #DAE5E8;
-    box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
+    /*box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);*/
     text-align: center;
 }
 
@@ -50,6 +50,7 @@ header {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5vw;
     color: black;
+    margin-bottom: 1.5vw;
 }
 
 .header_menu a:hover{
@@ -64,7 +65,7 @@ header {
     text-decoration: none;
     font-family: 'Nanum Gothic', sans-serif;
     color: black;
-    
+        
 }
 
 .header_menu{
@@ -72,7 +73,7 @@ header {
     justify-content:space-around;
     align-items:center;
     /*padding: 1vw;*/
-    width: 94vw;
+    width: 100%;
     background-color: #E0E0E0;
     box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
     text-align: center;
