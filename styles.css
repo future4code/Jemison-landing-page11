@@ -162,7 +162,7 @@ nav{
 
 /* INCIO SESSAO 1 */
 
-.sessoes{
+.apresentacao-dos-produtos{
     display: grid;
     grid-template-columns: repeat(2, 50vw);    
     height: 40vw;
