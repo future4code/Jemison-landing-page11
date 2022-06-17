@@ -35,16 +35,17 @@ header {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    padding: 1vw;
-    height: 20vw;
-    width: 95vw;
+    /*padding: 1vw;*/
+    height: 30vw;
+    width: 98vw;
     background-color: #DAE5E8;
-    align-items: center;
     box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
     text-align: center;
 }
 
 .header_botao{
+    justify-content: center;
+    align-items: center;
     box-shadow: 0.5vw 0.5vw 0.5vw rgb(0, 0, 0);
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5vw;
@@ -70,15 +71,20 @@ header {
     display: flex;
     justify-content:space-around;
     align-items:center;
-    padding: 1vw;
-    width: 95vw;
+    /*padding: 1vw;*/
+    width: 94vw;
     background-color: #E0E0E0;
     box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
     text-align: center;
     margin-bottom: 1vw;
-    margin-top: 1vw;
+    /*margin-top: 1vw;*/
 }
 
+nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
 
 
 /* estilos das sessões */
@@ -359,8 +365,22 @@ header {
     position: relative;
     grid-column-start: 1;
     grid-column-end: 6;
-    margin: 1vw;
+    margin: 4vw;
     height: 7vw;
+}
+
+#linha label{
+    font-size: 1.5vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+}
+
+.endereço {
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+    margin-bottom: 2vw;
 }
 
 /*Rodapé Contato*/
@@ -408,15 +428,3 @@ button {
     color: black;
 }
 
-#linha label{
-    font-size: 1.5vw;
-    font-family: 'Nanum Gothic', sans-serif;
-    color: black;
-}
-
-.endereço {
-    text-align: center;
-    font-size: 2vw;
-    font-family: 'Nanum Gothic', sans-serif;
-    color: black;
-}
