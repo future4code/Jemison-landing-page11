@@ -35,16 +35,17 @@ header {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    padding: 1vw;
-    height: 20vw;
-    width: 95vw;
+    /*padding: 1vw;*/
+    height: 30vw;
+    width: 98vw;
     background-color: #DAE5E8;
-    align-items: center;
     box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
     text-align: center;
 }
 
 .header_botao{
+    justify-content: center;
+    align-items: center;
     box-shadow: 0.5vw 0.5vw 0.5vw rgb(0, 0, 0);
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.5vw;
@@ -70,15 +71,20 @@ header {
     display: flex;
     justify-content:space-around;
     align-items:center;
-    padding: 1vw;
-    width: 95vw;
+    /*padding: 1vw;*/
+    width: 94vw;
     background-color: #E0E0E0;
     box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
     text-align: center;
     margin-bottom: 1vw;
-    margin-top: 1vw;
+    /*margin-top: 1vw;*/
 }
 
+nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
 
 
 /* estilos das sessões */
@@ -161,22 +167,26 @@ header {
     height: 40vw;
     font-family: 'Staatliches', cursive;
     gap: 2vw;
-    background-color: white;     
+    background-color: white;
+    width: 100%;
+    padding-bottom: 3vw;
+  
 }
 
-/*  
+ 
 .card{
     width: 80%;
     margin: 5px 15px 5px 15px;
+    height: 30vw ;
+    padding: 0;
    
-}  
- */
+} 
 
 .imagens-section:hover{
-    width: 45vw;
+    width: 40vw;
     transition: 0.6s;
 }
-
+ 
 .card p{
     margin: 2vw 0 0 7vw;
     display: block;
@@ -184,7 +194,7 @@ header {
 }
 
 .card2 p{
-    margin: 2vw 7.5vw 0 7vw;
+    margin: 2vw 7.5vw 0 7vw; 
     font-size: 4.5em;
 }
 
@@ -195,7 +205,7 @@ header {
 }
 
 .imagens-section{
-    width: 40vw;
+    width: 35vw;
    margin: 0.8vw 0 5vw 3vw;
    justify-content: center;
 }
@@ -272,7 +282,7 @@ header {
     background-color: #665B5B;
     margin-bottom: 1vw;  
 
-    height: 650px; 
+    height: 47vw; 
     grid-template-columns: repeat(4,1fr) ;   
 
 }
@@ -337,7 +347,6 @@ header {
     grid-template-columns: 100%;
     grid-template-rows:auto;
     height: 30vw;
-    /*width: 100vw;*/
     background-color: #665B5B;
     position: relative;
 }
@@ -355,13 +364,29 @@ header {
     grid-column-start: 1;
     grid-column-end: 6;
     margin: 1vw;
+    height: 10vw;
 }
 
 .rodape_midias{
     position: relative;
     grid-column-start: 1;
     grid-column-end: 6;
-    margin: 1vw;
+    margin: 4vw;
+    height: 7vw;
+}
+
+#linha label{
+    font-size: 1.5vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+}
+
+.endereço {
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+    margin-bottom: 2vw;
 }
 
 /*Rodapé Contato*/
@@ -409,15 +434,3 @@ button {
     color: black;
 }
 
-#linha label{
-    font-size: 1.5vw;
-    font-family: 'Nanum Gothic', sans-serif;
-    color: black;
-}
-
-.endereço {
-    text-align: center;
-    font-size: 2vw;
-    font-family: 'Nanum Gothic', sans-serif;
-    color: black;
-}
