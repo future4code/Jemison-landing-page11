@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Anton&family=Bad+Script&family=Charm&family=Coda+Caption&family=Italianno&family=Nanum+Gothic&family=Quicksand:wght@300&family=RocknRoll+One&family=Rubik:ital,wght@1,300&family=Staatliches&display=swap');
+
+
+/* Fonte-sessão principal */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:wght@700&family=Montserrat&family=Roboto:ital,wght@1,500&family=Tiro+Devanagari+Hindi:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+body{
+    background-color: #E0E0E0;
+}
+
+/* colocar estilo do header */
+
+#icone_logo {
+    height: 21vw;
+
+}
+
+#titulo-pagina{
+    font-family: 'Staatliches', cursive;
+    font-size: 15vw;
+    margin-right: 10vw;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    /*padding: 1vw;*/
+    height: 30vw;
+    width: 100%;
+    background-color: #DAE5E8;
+    /*box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);*/
+    text-align: center;
+}
+
+.header_botao{
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.5vw 0.5vw 0.5vw rgb(0, 0, 0);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.5vw;
+    color: black;
+    margin-bottom: 1.5vw;
+}
+
+.header_menu a:hover{
+    color: #ADADAD;
+    transition: 0.6s;
+   }
+
+
+.header_menu a{
+    align-content: space-between;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+        
+}
+
+.header_menu{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    /*padding: 1vw;*/
+    width: 100%;
+    background-color: #E0E0E0;
+    box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 1vw;
+    /*margin-top: 1vw;*/
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+
+/* estilos das sessões */
+
+
+.container-principal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 97%;
+    height: 800px;
+    color: white;
+    margin: 20px;
+    background-image: url(img-back/back-01Grey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 12px 12px 15px rgb(0, 0, 0);
+}
+
+.container-apresentacao{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titulo-1{
+    font-size: 6em;
+}
+
+#titulo-2{
+    padding: 20px;
+    color: rgb(218, 26, 26);
+    font-size:  3em;
+}
+
+.titulos{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: bold 700;
+    color: #ffbdbd;
+    padding: 13px;
+}
+
+.descricao-apresentacao{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 400 ;
+    text-align: justify;
+    font-size: 25px;
+    margin: 40px;
+    padding: 20px;
+    
+}
+
+.botao-principal{
+    width: 130px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #c21414;
+    padding: 3px;
+    border-radius: 2em;
+}
+
+.botao-principal a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.botao-principal:hover{
+    background-color: #850e0e;
+}
+
+/* INCIO SESSAO 1 */
+
+.apresentacao-dos-produtos{
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);    
+    height: 40vw;
+    font-family: 'Staatliches', cursive;
+    gap: 2vw;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 3vw;
+  
+}
+
+ 
+.card{
+    width: 80%;
+    margin: 5px 15px 5px 15px;
+    height: 30vw ;
+    padding: 0;
+   
+} 
+
+.imagens-section:hover{
+    width: 40vw;
+    transition: 0.6s;
+}
+ 
+.card p{
+    margin: 2vw 0 0 7vw;
+    display: block;
+    font-size: 4.5em;
+}
+
+.card2 p{
+    margin: 2vw 7.5vw 0 7vw; 
+    font-size: 4.5em;
+}
+
+.subtitulo-sessao{
+    font-size: 3em;
+    font-weight: 300;
+    margin: 2vw 3vw 0px 7.5vw;
+}
+
+.imagens-section{
+    width: 35vw;
+   margin: 0.8vw 0 5vw 3vw;
+   justify-content: center;
+}
+
+.card2 img{
+    margin:40px 0 50px 0;
+}
+
+
+
+/* sessão produtos */
+
+.container-produtos{
+    display: flex;
+    min-width: 30%;
+    max-width: 100%;
+    min-height: 30%;
+    max-height: 100%;
+    margin: 20px;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 20px 20px 20px #665B5B;
+    background-image: linear-gradient(to bottom,white, #cfc7c7, #665B5B )
+}
+
+.titulos-produto{
+    font-size: 3em;
+    margin: 5%;
+    color:black;
+}
+
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 10%;
+    max-width: 80%;
+    min-height: 10%;
+    max-height: 80%; 
+    margin: 2%;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 1px 2px 6px black;
+
+}
+
+.produtos:hover{
+    border: 3px solid #665B5B;
+    transform: 1s;
+}
+
+.imagem-produto{
+    min-width: 20%;
+    max-width: 80%;
+    min-height: 20%;
+    max-height: 80%;
+    margin: 1%;
+}
+
+
+
+/* INICIO MOSAICO*/
+
+.mosaico{
+    width: 100%;
+    display: grid;
+
+    height: 48vw; 
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat( 4,1fr);
+    gap: 0.8vw;
+    background-color: #665B5B;
+    margin-bottom: 1vw;  
+
+    height: 47vw; 
+    grid-template-columns: repeat(4,1fr) ;   
+
+}
+
+.img-mosaico{
+    width: 95%;
+    border: 1px solid black ;
+    box-shadow: #000 3px 1px 1px;
+}
+
+.div-mosaico1{
+    width: 100%;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+
+.div-mosaico2{
+    width: 100%;
+    margin-top: 4vw;
+    margin-left: 0.5vw;
+}
+
+.div-mosaico3{
+    width: 98%;
+    margin-top: 1vw;
+    margin-left: 0.4vw;
+}
+
+.div-mosaico4{
+    width: 100%;
+    margin-top: 1vw; 
+}
+
+.div-mosaico5{
+    width: 100%;
+    margin-top: -4vw;
+    margin-left: 1vw;
+}
+
+.div-mosaico6{
+    width: 100%;
+    margin-left: 0.5vw; 
+}
+
+.div-mosaico7{
+   width: 100%;
+   margin-top: -0.5vw;
+   margin-left: 0.4vw;
+}
+
+.div-mosaico8{
+   width: 100%;
+}
+
+
+/*INICIO DO RODAPÉ*/
+
+.rodape{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:auto;
+    height: 30vw;
+    background-color: #665B5B;
+    position: relative;
+}
+
+.rodape img{
+    position:relative;
+    top: 50%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    margin: 2vw;
+    height: 4vw;
+}
+
+.linha{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin: 1vw;
+    height: 10vw;
+}
+
+.rodape_midias{
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin: 4vw;
+    height: 7vw;
+}
+
+#linha label{
+    font-size: 1.5vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+}
+
+.endereço {
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+    margin-bottom: 2vw;
+}
+
+/*Rodapé Contato*/
+
+form {
+    margin: 0 auto;
+    width: 40vw;
+    padding: 1em;
+    border: 0.2em solid #CCC;
+    border-radius: 1em;
+}
+  
+form div + div {
+    margin-top: 1em;
+}
+  
+label {
+    display: inline-block;
+    width: 7vw;
+    text-align: right;
+}
+  
+input, textarea {
+    font: 1em sans-serif;
+    width: 32vw;
+    box-sizing: border-box;
+    border: 0.1em solid #999;
+}
+  
+input:focus, textarea:focus {
+    border-color: #000;
+}
+  
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+button {
+    margin-left: 45vw;
+    margin-top: 1em;
+    box-shadow: 1vw 1vw 3vw rgb(0, 0, 0);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.5vw;
+    color: black;
+}
+
